@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pandas
+requests
+sqlalchemy
+pytest
+httpx

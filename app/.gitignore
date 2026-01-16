@@ -1,0 +1,36 @@
+# --- Python General ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Entornos Virtuales (¡IMPORTANTE!) ---
+# Nunca subimos las librerías, para eso está requirements.txt
+venv/
+.venv/
+env/
+ENV/
+
+# --- Base de Datos (SQLite) ---
+# No subimos la BD porque contiene datos de prueba y es un binario
+*.db
+*.sqlite3
+app/banco.db
+
+# --- IDEs y Editores ---
+# Configuraciones personales de tu editor no le interesan al equipo
+.vscode/
+.idea/
+
+# --- Testing ---
+# Archivos temporales de Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Logs (Si tuviéramos) ---
+*.log
